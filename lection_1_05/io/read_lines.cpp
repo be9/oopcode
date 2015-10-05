@@ -14,11 +14,9 @@ int main()
     }
 
     string s;
-    int n_line;
 
-    for (int n = 1; getline(inp, s); ++n) {
+    for (int n = 1; getline(inp, s); ++n)
         cout << "Line " << n << ": " << s << endl;
-    }
 
     return 0;
 }

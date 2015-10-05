@@ -4,10 +4,10 @@
 using namespace std;
 
 int main() {
-    vector<int> a = { 1, 2, 3, 4 };
+    vector<int> a { 1, 2, 3, 4, 5 };
 
-    a.resize(5);        // 1 2 3 4 5 0
-    a.resize(7, 99);    // 1 2 3 4 5 0 99 99
+    a.resize(6);        // 1 2 3 4 5 0
+    a.resize(8, 99);    // 1 2 3 4 5 0 99 99
     a.resize(3);        // 1 2 3
     a.pop_back();       // 1 2
 
